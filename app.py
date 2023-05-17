@@ -6,8 +6,8 @@ import numpy as np
 import pandas as pd
 
 st.set_page_config(
-     page_title="Data Analysis Web App",
-     page_icon="🧊",
+     page_title="Test2023 Web App",
+     page_icon="tes",
      layout="wide",
      initial_sidebar_state="expanded",
      menu_items={
@@ -17,7 +17,7 @@ st.set_page_config(
      }
 )
 
-st.sidebar.title("Data Analysis Web App")
+st.sidebar.title("test webApp 01 ")
 
 file_format_type = ["csv", "txt", "xls", "xlsx", "ods", "odt"]
 functions = ["Overview", "Outliers", "Drop Columns", "Drop Categorical Rows", "Drop Numeric Rows", "Rename Columns", "Display Plot", "Handling Missing Data", "Data Wrangling"]
