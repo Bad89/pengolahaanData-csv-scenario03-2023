@@ -11,8 +11,8 @@ st.set_page_config(
      layout="wide",
      initial_sidebar_state="expanded",
      menu_items={
-         'Get Help': 'https://github.com/everydaycodings/Data-Analysis-Web-App',
-         'Report a bug': "https://github.com/everydaycodings/Data-Analysis-Web-App/issues/new",
+         'Get Help': 'https://pawhike2023.web.app/#/',
+         'Report a bug': "https://pawhike2023.web.app/#/",
          'About': "# This is a header. This is an *extremely* cool app!"
      }
 )
@@ -49,6 +49,8 @@ if uploaded_file is not None:
     st.text(" ")
     st.text(" ")
     st.text(" ")
+
+# result column
 
     if "Overview" in multi_function_selector:
         st.subheader("Dataset Description")
@@ -268,11 +270,11 @@ if uploaded_file is not None:
     if st.sidebar.button("Clear Cache"):
         clear_image_cache()
 
-else:
-    with open('samples/sample.zip', 'rb') as f:
-        st.sidebar.download_button(
-                label="Download Sample Data and Use It",
-                data=f,
-                file_name='smaple_data.zip',
-                help = "Download some sample data and use it to explore this web app."
-            )
+# else:
+#     with open('samples/sample.zip', 'rb') as f:
+#         st.sidebar.download_button(
+#                 label="Download Sample Data and Use It",
+#                 data=f,
+#                 file_name='smaple_data.zip',
+#                 help = "Download some sample data and use it to explore this web app."
+#             )
