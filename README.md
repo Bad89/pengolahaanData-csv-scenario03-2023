@@ -4,7 +4,7 @@
 source .venv/bin/activate
 
 - run:
-    streamlit run myfile.py
+    streamlit run csv.py
 
 - Screen shot when run :
 
