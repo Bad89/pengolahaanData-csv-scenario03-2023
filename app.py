@@ -2,6 +2,19 @@ import streamlit as st
 import pandas as pd
 
 # Membaca file CSV
+
+st.set_page_config(
+     page_title="Test2023 Web App",
+     page_icon="tes",
+     layout="wide",
+     initial_sidebar_state="expanded",
+     menu_items={
+         'Get Help': 'https://pawhike2023.web.app/#/',
+         'Report a bug': "https://pawhike2023.web.app/#/",
+         'About': "# This is a header. This is an *extremely* cool app!"
+     }
+)
+
 @st.cache
 def read_csv_file(file_path):
     df = pd.read_csv(file_path)
