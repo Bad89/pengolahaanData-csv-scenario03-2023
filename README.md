@@ -1,8 +1,8 @@
 ## Streamlit FrameWork for detail contact me
 
 - before run:
-pip install streamlit
-source .venv/bin/activate
+    - pip install streamlit
+    - source .venv/bin/activate
 
 - run:
     streamlit run csv.py
