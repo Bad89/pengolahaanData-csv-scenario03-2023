@@ -1,6 +1,7 @@
 ## Streamlit FrameWork for detail contact me
 
 - before run:
+pip install streamlit
 source .venv/bin/activate
 
 - run:
